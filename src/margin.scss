@@ -1,0 +1,7 @@
+@for $i from 1 through 5 {
+  .m-#{$i}  { margin:         4px * $i; }
+  .mb-#{$i} { margin-bottom:  4px * $i; }
+  .ml-#{$i} { margin-left:    4px * $i; }
+  .mr-#{$i} { margin-right:   4px * $i; }
+  .mt-#{$i} { margin-top:     4px * $i; }
+}
