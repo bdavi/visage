@@ -1,0 +1,6 @@
+# compiled output
+/dist/*
+/build/*
+
+# misc
+.sass-cache
