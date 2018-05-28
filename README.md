@@ -25,5 +25,5 @@ When running the build script, you may receive a warning similar to this:
 
 If so, ensure the build script is executable by running this:
 ```
-chmod +x bin/build
+$ chmod +x bin/build
 ```
