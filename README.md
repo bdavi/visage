@@ -29,7 +29,20 @@ $ chmod +x bin/build
 ```
 
 ## Usage
+- [Display](#disply)
 - [Margin and Padding](#margin-and-padding)
+
+### Display
+Classes prefixex with `d-` allow setting of display property.
+
+
+Class | CSS
+----- | -----------
+`d-inline` | display: inline;
+`d-inline-block` | display: inline-block;
+`d-block` | display: block;
+`d-none` | display: none;
+
 
 ### Margin and Padding
 Combine a prefix, direction and amount to create a class which specifies margins and padding.
