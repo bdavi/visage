@@ -1,0 +1,7 @@
+#!/bin/bash
+
+sass src/visage.scss build/visage.css --style expanded --sourcemap=none
+sass src/visage.scss dist/visage.min.css --style compressed --sourcemap=none
+echo "Success!"
+echo "The expanded css is available here: ./build/visage.css"
+echo "For a minified/production version see: ./dist/visage.min.css"
