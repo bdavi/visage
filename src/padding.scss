@@ -1,7 +1,11 @@
-@for $i from 1 through 5 {
-  .p-#{$i}  { padding:        4px * $i; }
-  .pb-#{$i} { padding-bottom: 4px * $i; }
-  .pl-#{$i} { padding-left:   4px * $i; }
-  .pr-#{$i} { padding-right:  4px * $i; }
-  .pt-#{$i} { padding-top:    4px * $i; }
+@for $i from 0 through 5 {
+  .p#{$i}   { padding:         5px * $i; }
+  .pb#{$i}  { padding-bottom:  5px * $i; }
+  .pl#{$i}  { padding-left:    5px * $i; }
+  .pr#{$i}  { padding-right:   5px * $i; }
+  .pt#{$i}  { padding-top:     5px * $i; }
+  .py#{$i}  { padding-top:     5px * $i;
+              padding-bottom:  5px * $i; }
+  .px#{$i}  { padding-left:    5px * $i;
+              padding-right:   5px * $i; }
 }

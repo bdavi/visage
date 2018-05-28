@@ -1,7 +1,26 @@
-@for $i from 1 through 5 {
-  .m-#{$i}  { margin:         4px * $i; }
-  .mb-#{$i} { margin-bottom:  4px * $i; }
-  .ml-#{$i} { margin-left:    4px * $i; }
-  .mr-#{$i} { margin-right:   4px * $i; }
-  .mt-#{$i} { margin-top:     4px * $i; }
+@for $i from 0 through 5 {
+  // Positive Margin
+  .m#{$i}   { margin:         5px * $i;      }
+  .mb#{$i}  { margin-bottom:  5px * $i;      }
+  .ml#{$i}  { margin-left:    5px * $i;      }
+  .mr#{$i}  { margin-right:   5px * $i;      }
+  .mt#{$i}  { margin-top:     5px * $i;      }
+  .my#{$i}  { margin-top:     5px * $i;
+              margin-bottom:  5px * $i;      }
+  .mx#{$i}  { margin-left:    5px * $i;
+              margin-right:   5px * $i;      }
+
+  // Negative Margin
+  .m-#{$i}  { margin:         5px * $i * -1; }
+  .mb-#{$i} { margin-bottom:  5px * $i * -1; }
+  .ml-#{$i} { margin-left:    5px * $i * -1; }
+  .mr-#{$i} { margin-right:   5px * $i * -1; }
+  .mt-#{$i} { margin-top:     5px * $i * -1; }
+  .my-#{$i} { margin-top:     5px * $i * -1;
+              margin-bottom:  5px * $i * -1; }
+  .mx-#{$i} { margin-left:    5px * $i * -1;
+              margin-right:   5px * $i * -1; }
+
+  // Auto Margin
+  .m-auto   { margin: 0 auto;                }
 }
