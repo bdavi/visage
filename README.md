@@ -29,11 +29,11 @@ $ chmod +x bin/build
 ```
 
 ## Usage
-- [Display](#disply)
+- [Display](#display)
 - [Margin and Padding](#margin-and-padding)
 
 ### Display
-Classes prefixex with `d-` allow setting of display property.
+Classes prefixed with `d-` allow setting of the display property.
 
 
 Class | CSS
