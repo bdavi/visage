@@ -28,23 +28,25 @@ If so, ensure the build script is executable by running this:
 $ chmod +x bin/build
 ```
 
-## Classes
+## Usage
 - [Margin and Padding](#margin-and-padding)
 
 ### Margin and Padding
 Combine a prefix, direction and amount to create a class which specifies margins and padding.
 
 
-**Prefix**
+**Prefixes**
+
 Value | Description
---|--
+----- | -----------
 `m` | Margin
 `p` | Padding
 
 
-**Direction**
+**Directions**
+
 Value | Description
---|--
+----- | -----------
 *none* | All Directions
 `l` | Left
 `r` | Right
@@ -54,16 +56,17 @@ Value | Description
 `y` | Top & Bottom
 
 
-**Amount**
+**Amounts**
+
 Value | Description
---|--
+----- | -----------
 `0` to `5` | 0 to 25px in increments of 5px
 `-1` to `-5` | -5px to -25px in increments of -5px (Margin Only)
 `-auto` | Yields `{ margin: 0 auto; }`. Only `m` prefix.
 
 
-Example usage:
-```html
+**Example usage:**
+```
 <!– { margin-left: -15px; margin-right: -15px; } –>
 <div class="mx-3">Hello World</div>
 
