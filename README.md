@@ -31,6 +31,7 @@ $ chmod +x bin/build
 ## Usage
 - [Display](#display)
 - [Margin and Padding](#margin-and-padding)
+- [Font Size](#font-size)
 
 ### Display
 Classes prefixed with `d-` allow setting of the display property.
@@ -86,3 +87,17 @@ Value | Description
 <!– { padding-top: 5px; padding-right: 20px } –>
 <div class="pt1 pr4">Hello World</div>
 ```
+
+
+### Font Size
+Adding a `font-size-XXX` allows you to control the font size relative to the root size.
+
+Class | CSS
+----- | -----------
+`font-size-xs` | font-size: .6rem
+`font-size-sm` | font-size: .85rem
+`font-size-default` | font-size: 1rem
+`font-size-lg` | font-size: 1.12rem
+`font-size-xl` | font-size: 1.25rem
+`font-size-xxl` | font-size: 1.5rem
+`font-size-xxxl` | font-size: 1.75rem
